@@ -10,7 +10,8 @@
  */
 int main(void)
 {
-int n,m;
+int n;
+int m;
 srand(time(0))
 /*our own code will be displayed below*/
 m= n % 10;
