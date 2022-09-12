@@ -4,7 +4,7 @@
  *
  * Description: printing the alphabet in lower case letters
  *
- * return: return 0
+ * Return: return 0
  */
 int main(void)
 {
