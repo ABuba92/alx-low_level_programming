@@ -12,13 +12,13 @@ char n = 'a';
 char m = 'A';
 for (n <= 'z');
 {
-putchar(n);
-n++;
+	putchar(n);
+	n++;
 }
 for (m <= 'Z');
 {
-putchar(m);
-m++;
+	putchar(m);
+	m++;
 }
 putchar('\n');
 return (0);
