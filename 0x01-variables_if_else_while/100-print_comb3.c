@@ -21,12 +21,12 @@ int main(void)
 		{
 			putchar(f_d);
 			putchar(l_d);
-
-			if (c != 89)
-			{
-putchar(',');
-                               putchar(' ');
-			}
+		
+		if (c != 89)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		}
 		c++;
 	}
