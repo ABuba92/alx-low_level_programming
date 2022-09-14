@@ -6,13 +6,12 @@
  * Return: 1
  */
 
-void int _islower(int c)
+int _islower(int c)
 {
-	char c;
 
 	if (islower(c))
 	{
-		_putchar(c);
+		return(1);
 	}
 	else
 	{
