@@ -5,7 +5,7 @@
  * Return: return type
  */
 
-void print_lower(void)
+void print_alphabet(void)
 {
 	char c;
 
