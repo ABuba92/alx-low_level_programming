@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * int_islower - print lower
+ * _islower - print lower
+ *
+ * @c: c is c
  *
  * Return: 1
  */
@@ -9,7 +11,7 @@
 int _islower(int c)
 {
 
-	if (islower(c))
+	if (c >= 'a' && c <= 'z')
 	{
 		return(1);
 	}
