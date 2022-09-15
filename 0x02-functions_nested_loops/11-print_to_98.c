@@ -26,7 +26,7 @@ void print_to_98(int n)
 			{
 				printf("\n");
 			}
-			n++
+			n++;
 		}
 	}
 	else  if (n > lim)
@@ -47,6 +47,6 @@ void print_to_98(int n)
 	}
 	else
 	{
-		print("98\n");
+		printf("98\n");
 	}
 }
