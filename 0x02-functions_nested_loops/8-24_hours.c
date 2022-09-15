@@ -28,7 +28,7 @@ void jack_bauer(void)
 		}
 		else if (i == '2')
 		{
-			i_equals_two(i);
+			i_equals_to_two(i);
 		}
 	}
 }
