@@ -44,9 +44,9 @@ void i_equals_to_one_or_zero(int i)
 {
 	int j, k, l;
 
-	for (j ='0'; j <= '9'; j++)
+	for (j = '0'; j <= '9'; j++)
 	{
-		for (k = '0'; k<= '5'; k++)
+		for (k = '0'; k <= '5'; k++)
 		{
 			for (l = '0'; l <= '9'; l++)
 			{
@@ -55,6 +55,7 @@ void i_equals_to_one_or_zero(int i)
 				_putchar(':');
 				_putchar(k);
 				_putchar(l);
+				_putchar('\n');
 			}
 		}
 	}
