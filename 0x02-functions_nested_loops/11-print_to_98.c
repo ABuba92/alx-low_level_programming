@@ -26,27 +26,27 @@ void print_to_98(int n)
 			{
 				printf("\n");
 			}
-			n++;
+			n++
 		}
 	}
-}
-else if (n > lim)
-{
-	while (n >= lim)
+	else  if (n > lim)
 	{
-		printf("%d", n);
-		if (n != lim)
+		while (n >= lim)
 		{
-			printf(", ");
+			printf("%d", n);
+			if (n != lim)
+			{
+				printf(", ");
+			}
+			else if (n == lim)
+			{
+				printf("\n");
+			}
+			n--;
 		}
-		else if (n == lim)
-		{
-			printf("\n");
-		}
-		n--;
 	}
-}
-else
-{
-	printf("98\n");
+	else
+	{
+		print("98\n");
+	}
 }
