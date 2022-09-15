@@ -9,7 +9,7 @@
  */
 void i_equals_to_one_or_zero(int i);
 
-void i_equals-to_two(int i);
+void i_equals_to_two(int i);
 
 /**
  * jack_bauer - prints every minutes
@@ -20,7 +20,7 @@ void jack_bauer(void)
 {
 	int i;
 
-	for (i == '0'; i <= '2'; i++)
+	for (i = '0'; i <= '2'; i++)
 	{
 		if (i == '1' || i == '0')
 		{
@@ -73,7 +73,7 @@ void i_equals_to_two(int i)
 
 	for (j = '0'; j <= '3'; j++)
 	{
-		for (k = '0'; k <= '5'; k+=)
+		for (k = '0'; k <= '5'; k++)
 		{
 			for (l = '0'; l <= '9'; l++)
 			{
