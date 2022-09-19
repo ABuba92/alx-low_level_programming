@@ -22,7 +22,7 @@ int main(void)
 				printf("FinnBuzz");
 		}
 		if (i < 100)
-			prinf(" ");
+			printf(" ");
 		else
 			printf("\n");
 	}
