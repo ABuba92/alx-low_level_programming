@@ -2,8 +2,11 @@
 
 /**
  * main - finnbuzz implementation
+ *
  * Return: zero
+ *
  */
+
 int main(void)
 {
 	int i;
@@ -19,7 +22,7 @@ int main(void)
 			else if ((i % 3 != 0) && (i % 5 == 0))
 				printf("Buzz");
 			else
-				printf("FinnBuzz");
+				printf("FizzBuzz");
 		}
 		if (i < 100)
 			printf(" ");
