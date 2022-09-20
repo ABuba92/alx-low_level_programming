@@ -10,12 +10,12 @@
 
 void _puts(char *str)
 {
-	int len = 0;
+	int k = 0;
 
-	while (*(str + len) != '\0')
+	while (*(str + k) != '\0')
 	{
-		putchar(*(str + len));
-		len++;
+		putchar(*(str + k));
+		k++;
 	}
 	putchar(10);
 }
